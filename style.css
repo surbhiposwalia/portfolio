@@ -1,6 +1,7 @@
 html {
 	margin: 20px;
 	padding: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav {
@@ -11,6 +12,13 @@ nav {
 a {
 	margin-right : 10px;
 	font-size: 30px;
+	text-decoration: none;
+	color: black bold;
+}
+
+header {
+	background-image: url('images/background.jpg');
+	height: 750px;
 }
 
 .col-nav {
