@@ -5,20 +5,42 @@ html {
 }
 
 nav {
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 40px;
 }
 
 a {
 	margin-right : 10px;
-	font-size: 30px;
+	font-size: 20px;
 	text-decoration: none;
-	color: black bold;
+	/*color: black ;*/
+}
+
+section {
+	padding: 30px;
 }
 
 header {
 	background-image: url('images/background.jpg');
 	height: 750px;
+}
+
+.project-source{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+}
+
+.short-desc {
+	font-size: 30px;
+}
+.source-code {
+	padding-right: 50px;
+}
+
+.skill {
+	font-size: 30px;
+	color: #58C9B9;
+	font-family: 'Baloo Thambi', cursive;
 }
 
 .col-nav {
@@ -30,4 +52,9 @@ header {
 	width: 350px;	
 	height: 250px;
 	margin: 40px;
+}
+
+.contact {
+	background-color: #424242;
+	color: white;
 }
