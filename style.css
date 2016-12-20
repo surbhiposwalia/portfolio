@@ -1,0 +1,25 @@
+html {
+	margin: 20px;
+	padding: 20px;
+}
+
+nav {
+	font-family: 'Amatic SC', cursive;
+	margin-bottom: 40px;
+}
+
+a {
+	margin-right : 10px;
+	font-size: 30px;
+}
+
+.col-nav {
+  float: right;
+  text-align: center;
+}
+
+.box {
+	width: 350px;	
+	height: 250px;
+	margin: 40px;
+}
