@@ -1,0 +1,97 @@
+html {
+	margin: 20px;
+	padding: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.5em;
+}
+
+nav {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+a {
+	margin-right : 10px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black ;
+	-webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header {
+	overflow: hidden;
+    background-size: cover;
+	background-image: url('../images/background.jpg');
+	height: 800px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.project-source{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.short-desc {
+	font-size: 30px;
+}
+.source-code {
+	padding-right: 50px;
+}
+
+.skill {
+	font-size: 30px;
+	color: #58C9B9;
+	font-family: 'Baloo Thambi', cursive;
+}
+
+.col-nav {
+  float: right;
+  text-align: center;
+}
+
+.box {
+	width: 350px;	
+	height: 250px;
+	margin: 40px;
+}
+
+.contact , .contact a{
+	background-color: #424242;
+	color: white;
+}
+
+.border {
+	color: white;
+	border: 2px black  solid;
+	border-radius: 5px;
+	background-color: black;
+	margin-bottom: 20px;
+}
+
+.fa:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+nav a:hover {
+	background-color: black;
+	color: white;
+  	-webkit-transform: scale(1.3);
+  	transform: scale(1.3);
+  	-webkit-transition: .3s ease-in-out;
+  	transition: .3s ease-in-out;
+  	padding: 10px;
+}
+.about-me {
+	font-size: 20px;
+}
+
