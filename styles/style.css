@@ -1,8 +1,8 @@
 html {
 	margin: 20px;
 	padding: 20px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
 }
 
 nav {
@@ -16,14 +16,16 @@ a {
 	text-decoration: none;
 	color: black ;
 	-webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  	transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+  	transition: .3s ease-in-out;
 }
 
 section {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 header {
@@ -32,25 +34,57 @@ header {
 	background-image: url('../images/background.jpg');
 	height: 800px;
 	width: 100%;
-	margin-bottom: 50px;
+	margin: 20px;
+	margin-bottom: 70px;
 }
 
-.project-source{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
+
+li {
+	text-decoration: none;
+	display: inline;
+}
+
+h2, ul {
+	text-align: center
+}
+
+li {
+	padding: 15px;
+	font-size:30px;
+}
+
+h1 {
+	margin: 20px;
+	padding: 25px;
+}
+
+nav a:hover {
+	background-color: black;
+	color: white;
+  	-webkit-transform: scale(1.3);
+  	transform: scale(1.3);
+  	-webkit-transition: .3s ease-in-out;
+  	transition: .3s ease-in-out;
+  	padding: 5px;
+}
+.project {
+	background-color: #dddddd;
+	margin: 20px
 }
 
 .short-desc {
 	font-size: 30px;
-}
-.source-code {
-	padding-right: 50px;
 }
 
 .skill {
 	font-size: 30px;
 	color: #58C9B9;
 	font-family: 'Baloo Thambi', cursive;
+}
+
+.abt-me {
+	color: black;
+	margin-top: 30px;
 }
 
 .col-nav {
@@ -64,34 +98,49 @@ header {
 	margin: 40px;
 }
 
+.proj-details { 
+	margin: 40px;
+	text-align: center;
+ }
+
 .contact , .contact a{
 	background-color: #424242;
 	color: white;
+	margin: 10px;
+	padding: 20px;
+
 }
 
-.border {
-	color: white;
-	border: 2px black  solid;
-	border-radius: 5px;
-	background-color: black;
-	margin-bottom: 20px;
+
+
+.contact {
+	height: 400px;
+	padding-bottom: 90px;
+	
 }
 
 .fa:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
+  -webkit-transition: .3s ease-in-out;
+  	transition: .3s ease-in-out;
+  	padding: 10px
 }
 
-nav a:hover {
-	background-color: black;
-	color: white;
-  	-webkit-transform: scale(1.3);
-  	transform: scale(1.3);
-  	-webkit-transition: .3s ease-in-out;
-  	transition: .3s ease-in-out;
-  	padding: 10px;
+.proj-title a{
+	margin: 30px;
 }
+
+
 .about-me {
 	font-size: 20px;
 }
 
+
+.fa-heart {
+	color: #58C9B9;
+}
+
+.box:hover {
+	 opacity:0.5;
+}
