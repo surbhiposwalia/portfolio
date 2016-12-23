@@ -43,7 +43,7 @@
   .col-m-3 {width: 25%;}
   .col-m-4 {width: 33.33%;}
   .col-m-5 {width: 41.66%;}
-  .col-m-6 {width: 50%;}
+  .col-m-6 {width: 50%; margin: auto;}
   .col-m-7 {width: 58.33%;}
   .col-m-8 {width: 66.66%;}
   .col-m-9 {width: 75%;}
@@ -57,7 +57,7 @@
 
 @media only (max-width: 999px) and (min-width: 768px) {
   .profile-pic {height: 280px;}
-  .col-6 {width: 50%;}
+  .col-6 {width: 50%; margin: auto;}
   .proj-2, .proj-4 {display: flex; }
   .proj-img {order: 2;}
   .proj-detail {order: 1;}
@@ -70,7 +70,7 @@
   .col-3 {width: 25%;}
   .col-4, .col-nav {width: 33.33%;}
   .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
+  .col-6 {width: 50%; margin: auto;}
   .col-7 {width: 58.33%;}
   .col-8 {width: 66.66%;}
   .col-9 {width: 75%;}
@@ -80,5 +80,5 @@
   .proj-2, .proj-4 {display: flex;}
   .proj-img {order: 2; }
   .proj-detail {order: 1;}
-  /*.desktop-right {float: right}*/
+  
 }
