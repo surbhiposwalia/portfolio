@@ -50,14 +50,15 @@
   .col-m-10 {width: 83.33%;}
   .col-m-11 {width: 91.66%;}
   .col-m-12 {width: 100%;}
-  .proj-2, .proj-4 {display: flex;}
+  .proj-2, .proj-4 {display: flex;float: right;}
   .proj-img {order: 2;}
   .proj-detail {order: 1;}
 }
+
 @media only (max-width: 999px) and (min-width: 768px) {
   .profile-pic {height: 280px;}
   .col-6 {width: 50%;}
-  .proj-2, .proj-4 {display: flex;}
+  .proj-2, .proj-4 {display: flex; }
   .proj-img {order: 2;}
   .proj-detail {order: 1;}
 }
@@ -77,6 +78,7 @@
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
   .proj-2, .proj-4 {display: flex;}
-  .proj-img {order: 2;}
+  .proj-img {order: 2; }
   .proj-detail {order: 1;}
+  /*.desktop-right {float: right}*/
 }

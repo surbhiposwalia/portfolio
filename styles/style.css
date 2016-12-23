@@ -42,6 +42,7 @@ header {
 li {
 	text-decoration: none;
 	display: inline;
+	color: #424242;
 }
 
 h2, ul {
@@ -69,7 +70,7 @@ nav a:hover {
 }
 .project {
 	background-color: #dddddd;
-	margin: 20px
+	margin-bottom: 60px;
 }
 
 .short-desc {
@@ -111,14 +112,10 @@ nav a:hover {
 
 }
 
-
-
 .contact {
 	height: 400px;
 	padding-bottom: 90px;
 	text-align: center;
-
-	
 }
 
 .fa:hover {
@@ -145,4 +142,9 @@ nav a:hover {
 
 .box:hover {
 	 opacity:0.5;
+}
+.profile-pic {
+	max-width: 350px;
+	max-height: 400px;
+	margin-bottom: 20px;
 }
