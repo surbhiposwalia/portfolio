@@ -28,14 +28,18 @@ section {
 	padding-right: 25px;
 }
 
+main {
+	border: 2px solid yellow;
+}
 header {
 	overflow: hidden;
     background-size: cover;
 	background-image: url('../images/background.jpg');
 	height: 800px;
 	width: 100%;
-	margin: 20px;
+	margin-top: 20px;
 	margin-bottom: 70px;
+	border: 2px solid black;
 }
 
 
@@ -55,7 +59,7 @@ li {
 }
 
 h1 {
-	margin: 20px;
+	/*margin:0 20 20 20px;*/
 	padding: 25px;
 }
 
@@ -107,13 +111,10 @@ nav a:hover {
 .contact , .contact a{
 	background-color: #424242;
 	color: white;
-	margin: 10px;
-	padding: 20px;
-
 }
 
 .contact {
-	height: 400px;
+	height: 500px;
 	padding-bottom: 90px;
 	text-align: center;
 }
@@ -135,6 +136,10 @@ nav a:hover {
 	font-size: 20px;
 }
 
+.try {
+	border: 1px solid black;
+	margin-top : 300px ;
+}
 
 .fa-heart {
 	color: #58C9B9;
@@ -147,4 +152,8 @@ nav a:hover {
 	max-width: 350px;
 	max-height: 400px;
 	margin-bottom: 20px;
+}
+
+.me {
+	border: 1px solid #7db9ba; 
 }
