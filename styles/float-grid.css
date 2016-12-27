@@ -31,8 +31,11 @@
   width: 33.33%
 }
 
+.col-nav{
+  width: 92%;
+}
 /* For mobile: */
-.col-3, .col-4, .col-6, .col-12, .col-nav {
+.col-3, .col-4, .col-6, .col-12 {
   width: 100%;
 }
 
@@ -43,13 +46,13 @@
   .col-m-3 {width: 25%;}
   .col-m-4 {width: 33.33%;}
   .col-m-5 {width: 41.66%;}
-  .col-m-6 {width: 50%; margin: auto;}
+  .col-m-6 {width: 50%;}
   .col-m-7 {width: 58.33%;}
   .col-m-8 {width: 66.66%;}
   .col-m-9 {width: 75%;}
   .col-m-10 {width: 83.33%;}
   .col-m-11 {width: 91.66%;}
-  .col-m-12 {width: 100%;}
+  .col-m-12 {width: 100%; display: block; overflow:hidden; word-wrap: break-word;}
   .proj-2, .proj-4 {display: flex;float: right;}
   .proj-img {order: 2;}
   .proj-detail {order: 1;}
@@ -57,10 +60,13 @@
 
 @media only (max-width: 999px) and (min-width: 768px) {
   .profile-pic {height: 280px;}
-  .col-6 {width: 50%; margin: auto;}
+  .col-6 {width: 50%;}
   .proj-2, .proj-4 {display: flex; }
   .proj-img {order: 2;}
+  .col-8 {width: 60%; display: block; overflow:hidden; word-wrap: break-word;}
   .proj-detail {order: 1;}
+  .col-nav {width: 100%; display: inline-block; overflow:hidden; margin: 20px;}
+  .col-1 {width: 8.33%;}
 }
 
 /* For desktop: */
@@ -68,17 +74,18 @@
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}
-  .col-4, .col-nav {width: 33.33%;}
+  .col-4 {width: 33.33%;}
   .col-5 {width: 41.66%;}
   .col-6 {width: 50%; margin: auto;}
   .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
+  .col-8 {width: 66.66%; margin: auto;}
   .col-9 {width: 75%;}
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+  .col-nav  {width: 100%;}
   .proj-2, .proj-4 {display: flex;}
   .proj-img {order: 2; }
   .proj-detail {order: 1;}
-  
+  /*.desktop-right {float: right}*/
 }

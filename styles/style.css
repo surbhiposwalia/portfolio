@@ -7,7 +7,14 @@ html {
 
 nav {
 	font-family: 'Open Sans', sans-serif;
-	margin-bottom: 20px;
+	background: #7db9ba;
+   	z-index: 150;
+  	box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  	overflow: hidden;
+  	position: fixed;
+  	top:0px;
+  	opacity: 0.8;
+  	margin-right: 40px;
 }
 
 a {
@@ -19,6 +26,7 @@ a {
   	transform: scale(1);
     -webkit-transition: .3s ease-in-out;
   	transition: .3s ease-in-out;
+  	
 }
 
 section {
@@ -37,9 +45,8 @@ header {
 	background-image: url('../images/background.jpg');
 	height: 800px;
 	width: 100%;
-	margin-top: 20px;
-	margin-bottom: 70px;
-	border: 2px solid black;
+	margin-top: 40px;
+	margin-bottom: 70px;	
 }
 
 
@@ -54,12 +61,10 @@ h2, ul {
 }
 
 li {
-	/*padding: 5px;*/
 	font-size:15px;
 }
 
 h1 {
-	/*margin:0 20 20 20px;*/
 	padding: 25px;
 }
 
@@ -70,7 +75,13 @@ nav a:hover {
   	transform: scale(1.3);
   	-webkit-transition: .3s ease-in-out;
   	transition: .3s ease-in-out;
-  	padding: 5px;
+}
+
+
+.nav-link{
+	margin-top: 50px;
+	/*margin-right: 40px;*/
+	float: right;
 }
 .project {
 	background-color: #dddddd;
@@ -83,7 +94,7 @@ nav a:hover {
 
 .skill {
 	font-size: 30px;
-	color: #58C9B9;
+	color: #7db9ba;
 	font-family: 'Baloo Thambi', cursive;
 }
 
@@ -133,12 +144,24 @@ nav a:hover {
 
 
 .about-me {
+	margin-left: 30px
 	font-size: 20px;
+	text-align: center;
 }
 
-.try {
-	border: 1px solid black;
-	margin-top : 300px ;
+.my-skills{
+	padding-top: 0px;
+	background-color: #424242;
+	color: white;
+}
+
+.my-skills li {
+	margin: 10px;
+	display: inline-block;
+	background-color: #7db9ba; 
+	padding: 10px;
+	color:white;
+	overflow: hidden;
 }
 
 .fa-heart {
@@ -155,5 +178,6 @@ nav a:hover {
 }
 
 .me {
+	overflow: hidden;
 	border: 1px solid #7db9ba; 
 }
