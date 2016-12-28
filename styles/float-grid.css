@@ -69,8 +69,8 @@
   .proj-img {order: 2;}
   .proj-detail {order: 1;}
   .box {
-  width: 350px; 
-  height: 250px;
+  width: 330px; 
+  height: 220px;
   margin: 40px;
 }
 }
@@ -94,10 +94,6 @@
   .proj-img {order: 2; }
   .proj-detail {order: 1;}
   .my-skills {margin-top: 100px;}
-  .box {
-  width: 350px; 
-  height: 250px;
-  margin: 40px;
-}
+  .box {width: 330px; height: 220px;margin: 20px;}
   /*.desktop-right {float: right}*/
 }

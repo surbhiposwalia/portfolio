@@ -13,7 +13,7 @@ nav {
   	overflow: hidden;
   	position: fixed;
   	top:0px;
-  	opacity: 0.7;
+  	opacity: 0.6;
   	margin-right: 40px;
 }
 
@@ -80,7 +80,6 @@ nav a:hover {
 
 .nav-link{
 	margin-top: 50px;
-	/*margin-right: 40px;*/
 	float: right;
 }
 .project {
