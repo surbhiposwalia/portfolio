@@ -13,7 +13,7 @@ nav {
   	overflow: hidden;
   	position: fixed;
   	top:0px;
-  	opacity: 0.8;
+  	opacity: 0.7;
   	margin-right: 40px;
 }
 
@@ -108,11 +108,7 @@ nav a:hover {
   text-align: center;
 }
 
-.box {
-	width: 350px;	
-	height: 250px;
-	margin: 40px;
-}
+
 
 .proj-details { 
 	margin: 40px;
@@ -150,7 +146,7 @@ nav a:hover {
 }
 
 .my-skills{
-	/*padding-top: 0px;*/
+	margin-top: 60px;
 	background-color: #424242;
 	color: white;
 }
@@ -165,7 +161,7 @@ nav a:hover {
 }
 
 .fa-heart {
-	color: #58C9B9;
+	color: #7db9ba;
 }
 
 .box:hover {

@@ -54,19 +54,25 @@
   .col-m-11 {width: 91.66%;}
   .col-m-12 {width: 100%; display: block; overflow:hidden; word-wrap: break-word;}
   .proj-2, .proj-4 {display: flex;float: right;}
-  .proj-img {order: 2;}
+  .proj-img {order: 2; width: 350px;  height: 250px;}
   .proj-detail {order: 1;}
+  .box {max-width: 350px;  max-height: 250px; margin:20px;}
 }
 
 @media only (max-width: 999px) and (min-width: 768px) {
-  .profile-pic {height: 280px;}
+  .col-1 {width: 8.33%;}
   .col-6 {width: 50%;}
+  .col-8 {width: 60%; display: block; overflow:hidden; word-wrap: break-word;}
+  .col-nav {width: 100%; display: inline-block; overflow:hidden; margin: 20px;}
+  .profile-pic {height: 280px;}
   .proj-2, .proj-4 {display: flex; }
   .proj-img {order: 2;}
-  .col-8 {width: 60%; display: block; overflow:hidden; word-wrap: break-word;}
   .proj-detail {order: 1;}
-  .col-nav {width: 100%; display: inline-block; overflow:hidden; margin: 20px;}
-  .col-1 {width: 8.33%;}
+  .box {
+  width: 350px; 
+  height: 250px;
+  margin: 40px;
+}
 }
 
 /* For desktop: */
@@ -87,5 +93,11 @@
   .proj-2, .proj-4 {display: flex;}
   .proj-img {order: 2; }
   .proj-detail {order: 1;}
+  .my-skills {margin-top: 100px;}
+  .box {
+  width: 350px; 
+  height: 250px;
+  margin: 40px;
+}
   /*.desktop-right {float: right}*/
 }
