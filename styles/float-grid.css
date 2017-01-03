@@ -54,8 +54,8 @@
   .col-m-11 {width: 91.66%;}
   .col-m-12 {width: 100%; display: block; overflow:hidden; word-wrap: break-word;}
   .proj-2, .proj-4 {display: flex;float: right;}
-  .proj-img {order: 2; width: 350px;  height: 250px;}
-  .proj-detail {order: 1;}
+  .proj-img {order: 2; width: 330px;  height: 220px;}
+  .proj-detail {order: 1; width:100%;}
   .box {max-width: 350px;  max-height: 250px; margin:20px;}
 }
 
