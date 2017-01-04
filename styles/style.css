@@ -71,10 +71,10 @@ h1 {
 nav a:hover {
 	background-color: black;
 	color: white;
-  	-webkit-transform: scale(1.3);
+  	/*-webkit-transform: scale(1.3);
   	transform: scale(1.3);
   	-webkit-transition: .3s ease-in-out;
-  	transition: .3s ease-in-out;
+  	transition: .3s ease-in-out;*/
 }
 
 
@@ -128,11 +128,10 @@ nav a:hover {
 }
 
 .fa:hover {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-  -webkit-transition: .3s ease-in-out;
-  	transition: .3s ease-in-out;
-  	padding: 10px
+	color: grey;
+ /* -webkit-transition: .3s ease-in-out;
+  	transition: .3s ease-in-out;*/
+  	/*padding: 10px*/
 }
 
 .proj-title a{
