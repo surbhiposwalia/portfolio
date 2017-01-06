@@ -30,10 +30,6 @@
 .col-1 {
   width: 33.33%
 }
-
-.col-nav{
-  width: 92%;
-}
 /* For mobile: */
 .col-3, .col-4, .col-6, .col-12 {
   width: 100%;
@@ -69,10 +65,10 @@
   .proj-img {order: 2;}
   .proj-detail {order: 1;}
   .box {
-  width: 330px; 
-  height: 220px;
-  margin: 40px;
-}
+    width: 330px; 
+    height: 220px;
+    margin: 40px;
+  }
 }
 
 /* For desktop: */
@@ -95,5 +91,4 @@
   .proj-detail {order: 1;}
   .my-skills {margin-top: 100px;}
   .box {width: 330px; height: 220px;margin: 20px;}
-  /*.desktop-right {float: right}*/
 }

@@ -55,9 +55,13 @@ h1 {
 	padding: 25px 25px 25px 0px;
 }
 
-nav a:hover {
-	background-color: black;
-	color: white;
+.proj-img {
+	object-fit: cover;
+	margin: auto;
+}
+
+.project-source {
+	font-size: 18px;
 }
 
 .header-content {
@@ -75,7 +79,6 @@ nav a:hover {
 	margin-top: 50px;
 	float: right;
 }
-
 
 .project {
 	background-color: #dddddd;
@@ -123,9 +126,8 @@ nav a:hover {
 }
 
 .proj-title a{
-	margin: 30px;
+	margin: 10px;
 }
-
 
 .about-me {
 	margin-left: 30px
@@ -181,4 +183,9 @@ nav a:hover {
 	padding: 10px;
 	color:white;
 	overflow: hidden;
+}*/
+
+/*nav a:hover {
+	background-color: black;
+	color: white;
 }*/
