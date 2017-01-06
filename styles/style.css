@@ -107,7 +107,7 @@ h1 {
 
 .proj-details { 
 	margin: 40px;
-	text-align: center;
+	text-align: left;
  }
 
 .contact , .contact a{
@@ -155,6 +155,10 @@ h1 {
 .me {
 	overflow: hidden;
 	border: 1px solid #7db9ba; 
+}
+
+.img-left {
+	margin: auto;
 }
 
 /*nav {

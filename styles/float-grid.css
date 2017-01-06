@@ -49,10 +49,10 @@
   .col-m-10 {width: 83.33%;}
   .col-m-11 {width: 91.66%;}
   .col-m-12 {width: 100%; display: block; overflow:hidden; word-wrap: break-word;}
-  .proj-2, .proj-4 {display: flex;float: right;}
+  .proj-2, .proj-4, .proj-1,.proj-3 {display: flex;float: right;}
   .proj-img {order: 2; width: 330px;  height: 220px;}
   .proj-detail {order: 1; width:100%;}
-  .box {max-width: 350px;  max-height: 250px; margin:20px;}
+  .box {max-width: 350px;  max-height: 250px; min-width:300px; min-height:200px; margin:20px;}
 }
 
 @media only (max-width: 999px) and (min-width: 768px) {
@@ -61,7 +61,7 @@
   .col-8 {width: 60%; display: block; overflow:hidden; word-wrap: break-word;}
   .col-nav {width: 100%; display: inline-block; overflow:hidden; margin: 20px;}
   .profile-pic {height: 280px;}
-  .proj-2, .proj-4 {display: flex; }
+  .proj-2, .proj-4, .proj-1,.proj-3 {display: flex;}
   .proj-img {order: 2;}
   .proj-detail {order: 1;}
   .box {
@@ -86,7 +86,7 @@
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
   .col-nav  {width: 94%;}
-  .proj-2, .proj-4 {display: flex;}
+  .proj-2, .proj-4, .proj-1,.proj-3 {display: flex;}
   .proj-img {order: 2; }
   .proj-detail {order: 1;}
   .my-skills {margin-top: 100px;}
