@@ -58,6 +58,7 @@
 @media only (max-width: 999px) and (min-width: 768px) {
   .col-1 {width: 8.33%;}
   .col-6 {width: 50%;}
+  .col-4 {width: 33.33%; float: center;}
   .col-8 {width: 60%; display: block; overflow:hidden; word-wrap: break-word;}
   .col-nav {width: 100%; display: inline-block; overflow:hidden; margin: 20px;}
   .profile-pic {height: 280px;}
