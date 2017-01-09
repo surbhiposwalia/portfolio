@@ -50,9 +50,9 @@
   .col-m-11 {width: 91.66%;}
   .col-m-12 {width: 100%; display: block; overflow:hidden; word-wrap: break-word;}
   .proj-2, .proj-4, .proj-1,.proj-3 {display: flex;float: right;}
-  .proj-img {order: 2; width: 330px;  height: 220px;}
+  .proj-img {order: 2; width: 250px; height: 290px;}
   .proj-detail {order: 1; width:100%;}
-  .box {max-width: 350px;  max-height: 250px; min-width:300px; min-height:200px; margin:20px;}
+  .box {max-width: 250px;  max-height: 290px;; min-width:200px; min-height:250px; margin:20px;}
 }
 
 @media only (max-width: 999px) and (min-width: 768px) {
@@ -66,9 +66,9 @@
   .proj-img {order: 2;}
   .proj-detail {order: 1;}
   .box {
-    width: 330px; 
-    height: 220px;
-    margin: 40px;
+    width: 250px; 
+    height: 290px;
+    /*margin: 40px;*/
   }
 }
 
@@ -90,6 +90,5 @@
   .proj-2, .proj-4, .proj-1,.proj-3 {display: flex;}
   .proj-img {order: 2; }
   .proj-detail {order: 1;}
-  .my-skills {margin-top: 100px;}
-  .box {width: 330px; height: 220px;margin: 20px;}
+  .box {width: 250px; height: 290px;}
 }
